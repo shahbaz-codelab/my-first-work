@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: 	 #24262b;
+    ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+   .logo img {
+    width: 50px;
+    height: inherit;
+    margin-top: 2px;
+    text-shadow: 2px 2px;
+ 
+  
+
+   }
+
+
+
+  
+
+.hero-section{
+    height: 91vh;
+    background-image: url(540944.jpg);
+    background-size: cover;
+    background-position: center;
+
+   
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+}
+
+    
+
+.text {
+    font-family: Segoe UI Black ;
+    font-size: 50px;
+    color: 
+    #808080
+    ;
+    gap: 5px;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    text-align: justify;
+    
+
+
+    
+
+}
+.section-two{
+
+    display: flex;
+    height: 500px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px; 
+}
+.content-area{
+
+    height: inherit;
+    width: 60%;
+    margin-right: 5px;
+}
+.img-area {
+    height: inherit;
+    width: 35%;
+
+}
+.img-area img {
+    height: 60%;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.car {
+    width: 90%;
+    height: inherit;
+}
+.main {
+    background-color:
+    #808080
+    
+    ;
+}
+.section-three{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.part1 {
+    height: inherit;
+    width: 20%;
+    margin-left: 10px;
+}
+.part2 {
+    height: inherit;
+    width: 20%;
+}
+.part3 {
+    height: inherit;
+    width: 20%;
+}
+.part4 {
+    height: inherit;
+    width: 20%;
+}
+.text1 {
+    text-align: justify;
+}
+.img1 {
+
+    border-radius: 10px;
+}
+.text1 {
+    color: #ffffff;
+}
+/* about page start */
+   
+/* footer css */
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+    margin-top: 50px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: flex;
+    flex-direction: row;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:10px ;
+	text-align: center;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/* about page content */
+.about-sec {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.information { 
+    width: 1000px;
+    height: 90vh;
+ 
+    justify-content:  space-around;
+
+
+}
+.information h1 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-sec .images img  {
+    height:90vh ;
+    width: 70% ;
+
+    margin: 10px;
+    margin-right: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+
+}
+.button {
+    margin-left: 50px;
+    background-color: #24262b;
+    color: aliceblue;
+    border-radius: 10%;
+    
+}
+
+.button:hover {
+    color: rgb(19, 150, 211);
+}
+
+
+
+/* contact us page content */
+
+.title h1{
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 44px;
+    font-size: 42px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.services-sec  {
+
+    width: 85%;
+    display: flex;
+
+
+
+text-align: center;
+
+}
+.card {
+
+    width: 100%;
+    display: flex;
+justify-content: space-between;  
+align-items: center;
+flex-direction: column;
+margin: 20px;
+padding: 20px 20px;
+border-radius: 10%;
+cursor: pointer;
+background-color: #808080;
+}
+.card .icon {
+
+    font-size: 35px;
+    margin-bottom:10px;
+}
+ 
+.card h2 {
+
+color: #ffffff;
+margin-bottom: 20px;
+
+    font-size: 28px;
+}
+
+.button {
+    font-size: 15px;
+    text-decoration: none;
+    color: #24262b;
+    padding: 8px 12px;
+    border-radius: 5%;
+    letter-spacing:  1px;
+}
+.form {
+
+    text-align: center;
+}
